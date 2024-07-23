@@ -1,1 +1,24 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15196394&assignment_repo_type=AssignmentRepo)
+# Project Overview
+This project explores the scENCORE method and single-cell epigenetic data to predict chromatin conformation using graph embedding techniques. For detailed insights, refer to the publication.
+
+### Data
+The dataset used is the 10X PBMC ATAC dataset from 10X Genomics. You can access it here.
+
+# Methodology
+The process involves several key steps:
+
+### Binning:
+Utilizes the ArchR project, with a binning size of 0.5 million.
+
+### Metacell Construction:
+Employs the SEACells project.
+
+### Meta-cell Feature Matrix, normalization, and correlation Calculation: 
+Uses custom code
+
+### Graph Construction and Embedding: 
+Methods are adapted from the scENCORE project.
+
+### Unsupervised Clustering: 
+Derived from scENCORE adaptations.
+
