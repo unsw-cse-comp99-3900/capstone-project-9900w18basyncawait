@@ -25,4 +25,4 @@ The process involves several key steps:
 ## Graph Construction, Graph Embedding, and Unsupervised Clustering: 
 - Description: This involves constructing a graph from the data, learning its embedded representation, and applying unsupervised clustering to uncover patterns.
 - Methods adapted from the [scENCORE project](https://github.com/aicb-ZhangLabs/scENCORE) and are intergrated into this project.
-- 
+
