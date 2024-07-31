@@ -2,11 +2,12 @@
 1. The docker and project is designed to run on Linux/Ubuntu system.
 2. Download the whole project
 3. Go into Docker diretory
-4. To load docker using the command 'docker load -i webmain.tar'
-5. Open the frontend.html
-6. Start up docker using the command 'docker run -p 5000:5000 webmain'
-7. In the frontend.html, click 'Choose files' button.
-8. Then select all four input data files in 'data' directory, which are,
+4. To load docker using the command
+   ```docker load -i webmain.tar```
+6. Open the frontend.html
+7. Start up docker using the command 'docker run -p 5000:5000 webmain'
+8. In the frontend.html, click 'Choose files' button.
+9. Then select all four input data files in 'data' directory, which are,
   - feature_C3.npy
   - feature_C4.npy
   - seacell_data_C3.csv
