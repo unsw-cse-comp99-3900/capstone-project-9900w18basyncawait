@@ -1,5 +1,5 @@
 # Docker Running Instruction
-1. The docker and project is designed to run on Linux/Ubuntu system.
+1. The docker and project is designed to run on Linux/Ubuntu system. Because this docker is created based on Ubuntu 22.04. The Ubuntu version before 22.04 will have error when running the docker.
 2. Download the whole project
 3. Go into Docker diretory
 4. To load docker using the command `docker load -i webmain.tar`
