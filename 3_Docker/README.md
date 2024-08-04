@@ -6,9 +6,7 @@
 6. Open the frontend.html
 7. Start up docker using the command `docker run -p 5000:5000 webmain`
 8. In the frontend.html, click `Choose files` button.
-9. Then select all four input data files in 'data' directory, which are,
-  - feature_C3.npy
-  - feature_C4.npy
+9. Then select two input data files in 'data' directory, which are,
   - seacell_data_C3.csv
   - seacell_data_C4.csv
 9. Then click `Start Training` button to start the computing process.
